@@ -10,7 +10,7 @@ btn.addEventListener('click', function() {
 	ol.style.backgroundColor = "blue;"
 	const val = inp.value;
 	if(val == "") return;
-	const l1 = document.createElement('li');
-	l1.innerText = inp.value;
-	ol.append(li);
-})
+	const li = document.createElement('li');
+	li.innerText = inp.value;
+	ol.appendChild(li);
+});
