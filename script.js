@@ -7,7 +7,7 @@ const btn = document.getElementById("addTodoBtn");
 
 
 btn.addEventListener('click', function() {
-	ol.style.backgroundColor = "blue;"
+	ol.style.backgroundColor = "blue";
 	const val = inp.value;
 	if(val == "") return;
 	const li = document.createElement('li');
